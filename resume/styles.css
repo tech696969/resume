@@ -1,0 +1,128 @@
+/*colors for my websites (not exact colors but my choices)
+http://www.w3schools.com/colors/colors_picker.asp
+white          = #ffffff;
+lighter yellow = #ffff66; @70%
+yellow         = #ffff00; @50%
+darker yellow  = #999900; @30%
+lighter orange = #ffc966; @70%
+orange         = #ffa500; @50%
+darker orange  = #996300; @30%
+lighter red    = #ff6666; @70%
+red            = #ff0000; @50%
+darker red     = #990000; @30%
+lighter green  = #33ff33; #60%
+green          = #008000; @50%
+darker green   = #004d00; @15%
+lighter blue   = #6666ff; @70%
+blue           = #0000ff; @50%
+darker blue    = #000099; @30%
+lighter purple = #ff1aff; @55%
+purple         = #800080; @25%
+darker purple  = #4d004d; @15%
+lighter brown  = #d2a679; @65%
+brown          = #996633; @40%
+darker brown   = #734d26; @30%
+lighter gray   = #b3b3b3; @70%
+gray           = #808080; @50%
+darker gray    = #4d4d4d; @30%
+black          = #000000;
+
+pixel to em conversion-----  http://www.w3schools.com/tags/ref_pxtoemconversion.asp
+*/
+
+
+#resume {
+    background-image: url("background/resumecloudy.jpg");
+    background-size: cover;
+}
+
+#indent {
+    margin-left: 40px;
+}
+
+div ul.name {
+    list-style-type: none;  
+    margin-left: -50px;
+}
+
+div ul.email {
+    list-style-type: none; 
+    margin-right: 10px;
+}
+
+.name {
+    float: left; 
+    text-align: left;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.email {
+    float: right;
+    text-align: left; 
+    font-size: 18px;
+    margin-top: 30px;
+    
+}
+
+#bolder {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+div ul.skills {
+    list-style-type: square;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+}
+
+#date {
+    list-style-type: none;
+    float: right;
+    text-align: left; 
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+@media only screen and (min-width: 523px) and (max-width: 709px){ #resume {
+    background-image: url("background/resumetan.jpg");
+    background-size: cover;
+}
+}
+
+#links {
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 1px;
+}
+
+div ul li a:link {
+    background-color: #000000;
+    color: #ff0000;
+}
+
+div ul li a:visited {
+    color: #ffffff;
+ 
+}
+
+div ul li a:hover {
+    background-color: #00ff00;
+    color: #0000ff;    
+}
+
+div ul li a:active {
+    color: #09aa34;
+}
+
+
+
