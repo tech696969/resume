@@ -1,59 +1,73 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href=
-    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel=
-    "stylesheet">
-    <script src=
-    "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-    </script>
-    <script src=
-    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-    </script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
-        <title>Resume</title>
-    
+    <title>Portfolio1</title>
+
     <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
-<body id="resume">
-   
+<body class="background">
+  <div style="text-align: center"> <a class="top" href="#top"></a> </div>
+    
+
+    <div class="row">
+        <!-- target="_blank"  needed on 1 and 2 -->
+        <a class="btn btn-primary" href="#" id="bt1" role="button">Home page</a> <a class="btn btn-warning" id="bt2" href="#" role="button">Try me!</a> <a class="btn btn-info" id="bt3" href="https://www.tutorialspoint.com/web_development_tutorials.htm" role="button" target="_blank">Web Tutorials</a> <a class="btn btn-danger" id="bt4" href="https://www.udemy.com/courses/" role="button" target="_blank">Udemy</a> <a class="btn btn-success" id="bt5" href="https://www.coursera.org/browse/computer-science/mobile-and-web-development?languages=en" role="button" target="_blank">Coursera</a>
+    </div>
+    <!-- my general infirmation -->
     <div class="container">
         <div class="col-md-6">
             <ul class="name">
-               <h1 id="bolder">Mark Wilcox</h1>
-                <li>622 Fair Bluff Drive</li>
-                <li>Wentzville, MO 63385</li>
-            </ul> 
-        </div>       
+                <h1 id="bolder">Mark Wilcox</h1>
+                <li>Address</li>
+                <li>City, State, Zip Code</li>
+            </ul>
+        </div>
         <div class="col-md-6">
             <ul class="email">
                 <br>
                 <br>
-                <li>Phone: 314-309-8291</li>
-                <li>mark.c.wilcox@att.com</li>
-            </ul>    
-        </div>    
+                <li>Phone: </li>
+                <li>Email: mark.c.wilcox@sbcglobal.net</li>
+            </ul>
+        </div>
     </div>
-<hr />
-   <div class="container">
-       <h2 class="bold">Target Job</h2>
-       <h4 id="indent">Seeking career in web development, network process and mobility</h4>
-    </div>     
-   <hr />
-   <div class="container">
-       <h2 class="bold">Summary of Skills</h2>
+
+    <hr />
+    <!-- start of the body work
+=====ROW1============================  -->
+    <div class="container">
+        <div class="jumbotron" id="div1">
+            <h1>Mark Wilcox</h1>
+            <p class="justify">I have worked in the electrical field before becoming a network center technician and now taking on web development. I'm striving to take courses on as many languages as I can to become a web developer. I have certifications in HTML, CSS, Javascript, jQuery, PHP and MySQL. I am always looking for advancement through my portfolio, links and practice. Along with very little to no training I can show you my skills.</p>
+        </div>
     </div>
-    <div class="container">       
+    <!-- start to our columns, coumn 1 -->
+    <div class="container">
+        <h2 class="bold">Target Job</h2>
+        <h4 id="indent">Seeking career in web development, network process and mobility</h4>
+    </div>
+    <hr />
+    <div class="container">
+        <h2 class="bold">Summary of Skills</h2>
+    </div>
+    <div class="container">
         <div class="col-md-6">
-           
+
             <ul class="skills">
                 <li>HTML / CSS / Bootstrap</li>
-                <li>Javascript</li>
+                <li>Javascript / jQuery</li>
+                <li>PHP</li>
+                <li>MySQL</li>
                 <li>Github</li>
                 <li>Scripting Tools and Languages </li>
                 <li>Six Sigma Green Belt</li>
@@ -62,11 +76,11 @@
                 <li>Business Process Improvement</li>
                 <li>Data Analysis</li>
                 <li>Customer Service Management</li>
-                <li>Network Architecture</li>    
             </ul>
-       </div>       
-       <div class="col-md-6">
+        </div>
+        <div class="col-md-6">
             <ul class="skills">
+                <li>Network Architecture</li>
                 <li>Network Operations</li>
                 <li>Network Performance Monitoring</li>
                 <li>Small Project Team Lead</li>
@@ -77,13 +91,13 @@
                 <li>Products and Services</li>
                 <li>Effectiveness Measurement</li>
                 <li>Problem Management Process</li>
-                <li>Wireless/Wireline Technologies</li>    
+                <li>Wireless/Wireline Technologies</li>
             </ul>
-       </div>    
+        </div>
     </div>
     <hr />
     <div class="container">
-       <h2 class="bold">Experience</h2>
+        <h2 class="bold">Experience</h2>
     </div>
     <div class="container">
         <div class="col-md-6">
@@ -92,68 +106,163 @@
                 <li>Earth City, MO</li>
                 <li>Network Center Technician</li>
             </ul>
-       </div>           
-       <div class="col-md-6">
-           <li id="date">June 2000 to Current</li>
-       
-       </div> 
-    </div>
-<div class="container">    
-<div class="col-md-12">
-    <ul class="skills">
-            <li>Conducted analysis to address tier1 issues which led to positive communication.</li>
-            <li>Successfully led key projects which resulted in improved production and troubleshooting.</li>
-            <li>Trained multiple co-workers on flows and comprehension of activities.</li>
-            <li>Resolved numerous issues through increased knowledge of the network.</li>
-            <li>Network Center Technician skilled at resolving complex customer service issues in a timely manner.</li>
-            <li>Group study on web development.</li>
-    </ul>
-</div>  
-    </div>
-<hr />              
-<div class="container">
-       <h2 class="bold">Accomplishments</h2>
-    </div>
-    <div class="container">
-<div class="col-md-12">
-        <ul class="skills">
-            <li>Excellent attendance.</li>        
-            <li>Motivated to produce positive results on a daily basis.</li>
-            <li>Always striving to achieve multiple demands.</li>
-            <li>Served as leader of 22 state support team.</li>
-            <li>Successfully mentored 10+ employees to use software effectively.</li>
-            <li>Collaborated on projects to enhance flow design.</li> 
-            <li>Acted as first point of contact for all major network technical issues.</li> 
-            <li>Received multiple awards in excellence.</li>    
-        </ul>
-</div>
-    </div>   
-    <hr /> 
-<div class="container">
-       <h2 class="bold">Education</h2>
-    </div>
-    <div class="container">
-<div class="col-md-12">
-    <ul class="skills">
-        <li>Electrical Engineering Technology – Associate Degree</li>
-        <li>Certificate in Industrial Electronics</li>
-        <li>Six Sigma Green Belt Certification</li>
-        <li>Certificate in HTML</li>
-        <li>Certificate in CSS</li>
-        <li>Certificate in Javascript</li>
-        <li>AT&amp;T University IP Technology / Agile Learning Badges</li>
-    </ul>
         </div>
-    </div> 
-    <hr />   
-<div class="container">
-     <ul id="links">
-         <li><a href="certificates/HTML.pdf" target="_blank">HTML Certificate</a></li>
-         <li><a href="certificates/CSS.pdf" target="_blank">CSS Certificate</a></li>
-         <li><a href="certificates/Javascript.pdf" target="_blank">Javascript Certificate</a></li>
-         <li><a href="https://www.tech696969.github.io" target="_blank">Github page</a></li>
-         <li><a href="https://www.linkedin.com/in/mark-wilcox" target="_blank">My Linked In Page</a></li>
-     </ul>   
-</div>  
+        <div class="col-md-6">
+            <li id="date">June 2000 to Current</li>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-12">
+            <ul class="skills">
+                <li>Conducted analysis to address tier1 issues which led to positive communication.</li>
+                <li>Successfully led key projects which resulted in improved production and troubleshooting.</li>
+                <li>Trained multiple co-workers on flows and comprehension of activities.</li>
+                <li>Resolved numerous issues through increased knowledge of the network.</li>
+                <li>Network Center Technician skilled at resolving complex customer service issues in a timely manner.</li>
+                <li>Group study on web development.</li>
+            </ul>
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+        <h2 class="bold">Accomplishments</h2>
+    </div>
+    <div class="container">
+        <div class="col-md-12">
+            <ul class="skills">
+                <li>Excellent attendance.</li>
+                <li>Motivated to produce positive results on a daily basis.</li>
+                <li>Always striving to achieve multiple demands.</li>
+                <li>Served as leader of 22 state support team.</li>
+                <li>Successfully mentored 10+ employees to use software effectively.</li>
+                <li>Collaborated on projects to enhance flow design.</li>
+                <li>Acted as first point of contact for all major network technical issues.</li>
+                <li>Received multiple awards in excellence.</li>
+            </ul>
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+        <h2 class="bold">Education</h2>
+    </div>
+    <div class="container">
+        <div class="col-md-12">
+            <ul class="skills">
+                <li>Electrical Engineering Technology – Associate Degree</li>
+                <li>Certificate in Industrial Electronics</li>
+                <li>Six Sigma Green Belt Certification</li>
+                <li>Certificate in HTML</li>
+                <li>Certificate in CSS</li>
+                <li>Certificate in Javascript</li>
+                <li>Certificate in jQuery</li>
+                <li>Certificate in PHP</li>
+                <li>Certificate in MySQL</li>
+                <li>AT&amp;T University IP Technology / Agile Methodology</li>
+            </ul>
+        </div>
+    </div>
+    <div id="draggable">Drag me!
+    <ul class="animation">
+  <!-- Animated glyphicon with font-awesome.css in <head>. Let's try 3 for starters. adjust font size to 17px for all to fit.
+<i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i> -->
+            
+<li><a href="#"><i class="fa fa-refresh fa-spin"></i></a></li>   
+<li><a href="#"><i class="fa fa-spinner fa-spin"></i></a></li>                        
+<li><a href="#"><i class="fa fa-circle-o-notch fa-spin"></i></a>
+          </li>
+              <!-- make sure you close all the lists or your screen will spin..lol. -->
+  </ul>
+    </div>
+    <div style="text-align: center"> <a class="top" href="#top">Go to top of page</a> </div>
+    <div class="container">
+        <div class="col-md-6">
+            <ul class="links">
+                <li><a href="certificates/HTML.pdf" target="_blank">HTML Certificate</a></li>
+                <li><a href="certificates/CSS.pdf" target="_blank">CSS Certificate</a></li>
+                <li><a href="certificates/Javascript.pdf" target="_blank">Javascript Certificate</a></li> 
+                <li><a href="certificates/jQuery.pdf" target="_blank">jQuery Certificate</a></li>
+                </ul>
+        </div>
+            <div class="col-md-6">
+            <ul class="links">  
+                <li><a href="certificates/PHP.pdf" target="_blank">PHP Certificate</a></li>
+
+                <li><a href="certificates/MySQL.pdf" target="_blank">MySQL Certificate</a></li>
+
+
+                <li><a href="https://tech696969.github.io" target="_blank">Github page</a></li>
+                <li><a href="https://www.linkedin.com/in/mark-wilcox" target="_blank">My Linked In Page</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="text-center">
+        <nav aria-label="Page navigation">
+            <ul class="pagination" id="page">
+                <li>
+                    <a aria-label="Previous" href="newone.html" target="_blank"><span aria-hidden="true">&laquo;</span></a>
+                </li>
+
+
+                <li>
+                    <a href="newone.html" target="_blank">1</a>
+                </li>
+
+
+                <li>
+                    <a href="newtwo.html" target="_blank">2</a>
+                </li>
+
+
+                <li>
+                    <a href="newthree.html" target="_blank">3</a>
+                </li>
+
+
+                <li>
+                    <a aria-label="Next" href="newthree.html" target="_blank"><span aria-hidden="true">&raquo;</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#bt1").click(function () {
+                $("#bt1").fadeOut(5000).fadeIn(3000);
+            });
+        });
+        $(document).ready(function () {
+            $("#bt2").click(function () {
+                $("#bt2").slideUp(1500).slideDown(1500);
+            });
+        });
+        $(document).ready(function () {
+            $("#bt3").mousemove(function () {
+                $("#bt3").fadeOut(3000).fadeIn(2000);
+            });
+        });
+        $(document).ready(function () {
+            $("#bt4").hover(function () {
+                $("#bt4").fadeOut(4000).fadeIn(3000);
+            });
+        });
+        $(document).ready(function () {
+            $("#bt5").mouseover(function () {
+                $("#bt5").fadeOut(2500).fadeIn(2500);
+            });
+        });
+        $( function() {
+    $( "#draggable" ).draggable();
+  } );
+    </script>
+
 </body>
+
 </html>
