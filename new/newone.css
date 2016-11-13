@@ -1,0 +1,187 @@
+/*colors for my websites (not exact colors but my choices)
+http://www.w3schools.com/colors/colors_picker.asp
+white          = #ffffff;
+lighter yellow = #ffff66; @70%
+yellow         = #ffff00; @50%
+darker yellow  = #999900; @30%
+lighter orange = #ffc966; @70%
+orange         = #ffa500; @50%
+darker orange  = #996300; @30%
+lighter red    = #ff6666; @70%
+red            = #ff0000; @50%
+darker red     = #990000; @30%
+lighter green  = #33ff33; #60%
+green          = #008000; @50%
+darker green   = #004d00; @15%
+lighter blue   = #6666ff; @70%
+blue           = #0000ff; @50%
+darker blue    = #000099; @30%
+lighter purple = #ff1aff; @55%
+purple         = #800080; @25%
+darker purple  = #4d004d; @15%
+lighter brown  = #d2a679; @65%
+brown          = #996633; @40%
+darker brown   = #734d26; @30%
+lighter gray   = #b3b3b3; @70%
+gray           = #808080; @50%
+darker gray    = #4d4d4d; @30%
+black          = #000000;
+
+pixel to em conversion-----  http://www.w3schools.com/tags/ref_pxtoemconversion.asp
+*/
+#one {
+    background-color: #3f3;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-family: sans-serif;
+    font-variant: normal;
+    display: block;
+    border: 1px solid #3f3;
+    opacity: .9;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    #one {
+        background-color: #4d4d4d;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 578px) and (max-width: 767px) {
+    #one {
+        background-color: #963;
+        color: #000;
+    }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 577px) {
+    #one {
+        background-color: #ffc966;
+        color: #000;
+    }
+}
+
+#two {
+    background-color: #ff6;
+    color: #000;
+    font-weight: 400;
+    font-style: normal;
+    font-family: sans-serif;
+    font-variant: normal;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    #two {
+        background-color: #963;
+        color: #000;
+    }
+}
+
+@media only screen and (min-width: 578px) and (max-width: 767px) {
+    #two {
+        background-color: #4d004d;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 577px) {
+    #two {
+        background-color: #4d4d4d;
+        color: #fff;
+    }
+}
+
+#three {
+    background-color: #009;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-family: sans-serif;
+    font-variant: normal;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    #three {
+        background-color: #4d4d4d;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 578px) and (max-width: 767px) {
+    #three {
+        background-color: #963;
+        color: #000;
+    }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 577px) {
+    #three {
+        background-color: #ffc966;
+        color: #000;
+    }
+}
+
+#me {
+    background-color: #990;
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#nav1 {
+    display: block;
+    border: 1px solid none;
+    line-height: 150px;
+    height: 200px;
+}
+
+.row {
+    margin-top: 40px;
+    
+}
+
+a.links:link {
+       color: #ff0000; 
+       background-color: #00ff00; 
+    }
+   
+a.links: visited {
+        color: #ffffff
+        background-color: #000000;    
+}
+
+a.links:hover {
+        color: #0000ff; 
+}
+
+a.links:active {
+        color: #00ffff
+        background-color: #000000; 
+    
+}
+
+.same {
+    text-align: center;
+    align-content: none;
+    display: block;
+    border: 1px solid none;
+    background-color: #734d26;
+    outline-color: #004d00;
+    overflow: hidden;
+}
+
+.para1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+#top {
+    text-align: center;
+}

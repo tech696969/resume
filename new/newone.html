@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<!--  Bootstrap added -->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel=
+    "stylesheet">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+
+    <title>New One</title>
+    <link href="newone.html" rel="stylesheet">
+    <link href="newtwo.html" rel="stylesheet">
+    <link href="newthree.html" rel="stylesheet">
+    <link href="newone.css" rel="stylesheet" type="text/css">
+    <style>
+    </style>
+</head>
+
+<body id="one">
+    <nav class="navbar navbar-default navbar-fixed-top" id="green">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- navbar-header is used to add links onto the naviagtion bar. -->
+                <button class="navbar-toggle" data-target="#myNavbar"
+                data-toggle="collapse" type="button"><span class=
+                "icon-bar"></span> <span class="icon-bar"></span> <span class=
+                "icon-bar"></span></button>
+                <!-- Nothing to click on here where the brand name is --><a class="navbar-brand" href="#" id="me">Mark Wilcox</a>
+            </div>
+            <!-- navbar collapse creates a hamburger. 3 lines. -->
+
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav" id="white">
+                    <!-- inside the header you must have nav navbar-nav to create your buttons/links onto the navigation bar. make sure you make your list active again or it won't do anything. -->
+
+
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+
+
+                    <li>
+                        <a href=
+                        "https://www.web-savvy-marketing.com/category/website-development/"
+                        target="_blank">News</a>
+                    </li>
+
+
+                    <li>
+                        <a href=
+                        "https://www.quora.com/How-good-is-web-development-as-a-career?redirected_qid=1092651"
+                        target="_blank">Careers</a>
+                    </li>
+
+
+                    <li>
+                        <a href="https://www.linkedin.com/" target=
+                        "_blank">Linked In</a>
+                    </li>
+                    <!-- dropdown for particular online studies. -->
+
+
+                    <li class="active">
+                        <a href="#">&lt;/&gt;</a>
+                    </li>
+                    <!-- dropdown requires jquery and bootstrap.min for it to work. without the files you will not be able to click on it for any action. -->
+
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href=
+                        "#">Web Development<span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://www.udemy.com/courses/"
+                                target="_blank">Udemy</a>
+                            </li>
+
+
+                            <li>
+                                <a href=
+                                "https://www.tutorialspoint.com/web_development_tutorials.htm"
+                                target="_blank">Web Tutorials</a>
+                            </li>
+
+
+                            <li>
+                                <a href=
+                                "https://www.coursera.org/browse/computer-science/mobile-and-web-development?languages=en"
+                                target="_blank">Coursera</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- We still need to use the navbar left so that the search form will place next to the links and dropdown -->
+
+
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input class="form-control" placeholder=
+                        "Username@att.net" type="text">
+                    </div>
+                    <!--button type at this time is a pretty simple form. no active use at this time-->
+                    <button class="btn btn-danger" type=
+                    "submit">Submit</button>
+                </form>
+                <!--end of form-group with the input type and button. Very little room now for extras on the navigation bar. -->
+                <!-- navbar-right will give us some space in the middle to add more links or icons. -->
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#"><span class=
+                        "glyphicon glyphicon-envelope"></span>New mail</a>
+                    </li>
+                    <!--   <li> <a href="#"><span class=
+                        "glyphicon glyphicon-print"></span>Print</a> </li> -->
+                </ul>
+            </div>
+            <!-- end of div taken out for collpase -->
+        </div>
+    </nav>
+    
+    <!-- A new way of naviagting between webpages. -->
+
+
+    <div class="container text-center" id="nav1">
+        <div class="row">
+            <a class="btn btn-primary" href="newtwo.html" role="button" target=
+            "_blank">Page 2</a> <a class="btn btn-primary" href="newthree.html"
+            role="button" target="_blank">Page 3</a> <a class="btn btn-primary"
+            href="https://www.tutorialspoint.com/web_development_tutorials.htm"
+            role="button" target="_blank">Web Tutorials</a> <a class=
+            "btn btn-primary" href="https://www.udemy.com/courses/" role=
+            "button" target="_blank">Udemy</a> <a class="btn btn-primary" href=
+            "https://www.coursera.org/browse/computer-science/mobile-and-web-development?languages=en"
+            role="button" target="_blank">Coursera</a>
+        </div>
+    </div>
+    <!-- start of the body work
+=====ROW1============================
+=======================text-center==============================
+-->
+
+
+    <div class="container text-center" id="mainpage1">
+        <div class="row1">
+            <div class="col-md-1 col-sm-2 col-xs-6">
+            <h3 class="same">Ads</h3>
+            <img alt="Java" src="new-images/java.png">
+            </div>
+
+
+            <div class="col=md-2 col-sm-2 col-xs-6">
+                <h2 class="same">Class</h2>
+
+
+                <p id="para1">HTML</p>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6">
+                <h1 class="same">Stick With It!!!</h1>
+
+
+                <h1>Photography</h1>
+            </div>
+
+
+            <div class="col=md-2 col-sm-2 col-xs-6">
+                <h2 class="same">Links</h2>
+                <a class="links" href=
+                "https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            </div>
+
+
+            <div class="col-md-1 col-sm-2 col-xs-6">
+            <h3 class="same">Logo</h3>
+            <img alt="Udacity" src="new-images/linkedin.jpg">
+            </div>
+        </div>
+    </div>
+    <!--
+========================Row 2==========================
+================================text-center=====
+-->
+
+
+    <div class="container text-center" id="mainpage2">
+        <div class="row2">
+            <div class="col-md-1 col-sm-2 col-xs-6">
+            <h3 class="same">
+            </h3>
+            <img alt="Apple" src="new-images/apple.jpg">
+            </div>
+
+
+            <div class="col=md-2 col-sm-2 col-xs-6">
+                <h2 class="same">
+                </h2>
+
+
+                <p class="para1">CSS</p>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6">
+            <h1 class="same">
+            </h1>
+            <img alt="Mountain1" src="new-images/mt1.jpg">
+            </div>
+
+
+            <div class="col=md-2 col-sm-2 col-xs-6">
+                <h2 class="same">
+                </h2>
+                <a class="links" href=
+                "https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKEAjwj92_BRDQ-NuC98SZkWYSJACWmjhl2f8XFOG_tgu-T1KnX-7c0ZFy71F9HIONOb1y5QihxRoCTzzw_wcB"
+                target="_blank">Chrome</a>
+            </div>
+
+
+            <div class="col-md-1 col-sm-2 col-xs-6">
+            <h3 class="same">
+            </h3>
+            <img alt="linkedin" src="new-images/chrome.jpg">
+            </div>
+        </div>
+    </div>
+    <!--
+========================Row 3==========================
+================================text-center=====
+-->
+
+    <div class="container text-center" id="mainpage3">
+        <div class="row3">
+            <div class="col-md-1 col-sm-2 col-xs-6">
+            <h3 class="same">
+            </h3>
+            <img alt="Google" src="new-images/googleplus.png">
+            </div>
+
+
+            <div class="col=md-2 col-sm-2 col-xs-6">
+                <h2 class="same">
+                </h2>
+
+
+                <p class="para1">Bootstrap</p>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6">
+            <h1 class="same">
+            </h1>
+            <img alt="Mountain2" src="new-images/mt2.jpg">
+            </div>
+
+
+            <div class="col=md-2 col-sm-2 col-xs-6">
+                <h2 class="same">
+                </h2>
+                <a class="links" href=
+                "https://twitter.com/?lang=en" target="_blank">Twitter</a>
+            </div>
+
+
+            <div class="col-md-1 col-sm-2 col-xs-6">
+            <h3 class="same">
+            </h3>
+            <img alt="Twitter" src="new-images/twitter.png">
+            </div>
+        </div>
+    </div>
+    <!--
+========================Row 4==========================
+================================text-center=====
+-->
+
+    <div class="container text-center" id="mainpage4">
+        <div class="row4">
+            <div class="col-md-1 col-sm-2 col-xs-6">
+            <h3 class="same">
+            </h3>
+            <img alt="Facebook" src="new-images/facebook.jpg">
+            </div>
+
+
+            <div class="col=md-2 col-sm-2 col-xs-6">
+                <h2 class="same">
+                </h2>
+
+
+                <p class="para1">Javascript</p>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6">
+            <h1 class="same">
+            </h1>
+            <img alt="Mountain3" src="new-images/mt3.jpg">
+            </div>
+
+
+            <div class="col=md-2 col-sm-2 col-xs-6">
+                <h2 class="same">
+                </h2>
+                <a class="links" href=
+                "https://www.microsoft.com/en-us/download/internet-explorer.aspx"
+                target="_blank">Internet Explorer</a>
+            </div>
+
+
+            <div class="col-md-1 col-sm-2 col-xs-6">
+            <h3 class="same">
+            </h3>
+            <img alt="ie" src="new-images/ie.jpg">
+            </div>
+        </div>
+    </div>
+    <!--
+========================Row 5==========================
+================================text-center=====
+-->
+
+    <div class="container text-center" id="mainpage5">
+        <div class="row5">
+            <div class="col-md-1 col-sm-2 col-xs-6">
+            <h3 class="same">
+            </h3>
+            <img alt="Firefox" src="new-images/firefox.jpg">
+            </div>
+
+
+            <div class="col=md-2 col-sm-2 col-xs-6">
+                <h2 class="same">
+                </h2>
+
+
+                <p class="para1">SQL</p>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6">
+            <h1 class="same">
+            </h1>
+            <img alt="Mountain4" src="new-images/mt4.jpg">
+            </div>
+
+
+            <div class="col=md-2 col-sm-2 col-xs-6">
+                <h2 class="same">
+                </h2>
+                <a class="links" href="http://www.opera.com/"
+                target="_blank">Opera</a>
+            </div>
+
+
+            <div class="col-md-1 col-sm-2 col-xs-6">
+            <h3 class="same">
+            </h3>
+            <img alt="Opera" src="new-images/opera.jpg">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <h4 id="top"><a href="#one">Go To Top</a>
+    </h4>
+    <br>
+    <br>
+
+    <hr>
+
+
+    <div class="container text-center">
+        <h5>&copy; Mark Wilcox</h5>
+        <br>
+        <br>
+    </div>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+</body>
+</html>
