@@ -155,7 +155,8 @@ div ul li a:link {
 }
 
 div ul li a:visited {
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000099;
 }
 
 div ul li a:hover {
